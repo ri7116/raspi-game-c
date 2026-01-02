@@ -4,12 +4,7 @@
 
 ## 게임 플레이 영상
 
-<video width="640" height="480" controls>
-  <source src="play.mp4" type="video/mp4">
-  브라우저가 비디오 태그를 지원하지 않습니다.
-</video>
-
-또는 [play.mp4](./play.mp4) 파일을 직접 다운로드하여 확인하세요.
+![게임 플레이 영상](./play.gif)
 
 ## 디렉토리 구조
 
@@ -39,7 +34,7 @@ raspi-game-c/
 │   └── master.h               # 마스터 헤더 (모든 모듈 통합)
 ├── main.c                     # 메인 프로그램
 ├── Makefile                   # 빌드 설정
-└── play.mp4                   # 게임 플레이 영상
+├── play.gif                   # 게임 플레이 영상 (GIF)
 ```
 
 ## 빌드 방법
